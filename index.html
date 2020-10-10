@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link href="coastline.css" rel="stylesheet" />
+    <title>Pulse</title>
+</head>
+
+<background>
+    <div style="background-image: url('topographic_a.png');"></div>
+</background>
+
+
+<body>
+    <!-- <img id="banner" src="nj shore header.png" alt="Banner Image"/> -->
+
+    <div class="banner" style="padding:20px; text-align:center;">
+        <div class="banner-content">
+            <h1>Pulse</h1>
+            <h3>Reimagining the Landscape of Boundaries</h3>
+            <p>A collaboration by Adam Colestock and Monika Lin</p>
+            <br>
+            <a href="about.html" class="btn btn-primary">About</a>
+        </div>
+    </div>
+    <!-- <img class = "project_header" src= "nj shore header.png"alt="NJ Header" class="center">
+    <h1 class = "project_heading"> The Coastline </h1> -->
+
+    <div class="project_container">
+        <table>
+            <tr>
+                <td>
+                    <!-- <iframe src="https://editor.p5js.org/adamcolestock/embed/Pg764LziY" width="400" height="400"></iframe> 
+            <p id="P5 Adam" class = "project_adam" > Adam Colestock (still under construction)</p> -->
+                    <!-- <button id="button-do" >Click here</button> -->
+                </td>
+                <td>
+                    <div class="aligncenter">
+                        <iframe src="https://editor.p5js.org/adamcolestock/embed/tNEc_W9m0" width="800"
+                            height="500"></iframe>
+                    </div>
+                    <div class="project_monika">
+                        <h3> Monika Lin </h3>
+                        <!-- <button id="button-do" >Click here</button> -->
+
+                        <p> The shifting shapes are derivations/extractions of
+                            longitude and latitude coordinates from a stretch of the New Jersey Shoreline at Cape May.
+                            The
+                            numerical information is separated into a series of xy coordinates in P5 as corresponding
+                            abstract shapes, rather than visualized as a linear segment of a shoreline. </p>
+                        <p>
+                            Many thanks to: Adam Colestock, Mathura Govindarajan, Craig Protzel, Mimi Yin, and Ellen
+                            Nickles. I am also grateful for w3schools.com and The Coding Train/Daniel Shiffman
+                        </p>
+                    </div>
+
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="fluid-sketch-div" class="aligncenter">
+        <!-- Adam's sketch will go here! -->
+    </div>
+    <div class="project_adam">
+        <h3 class="aligncenter"> Fluid Boundaries</h3>
+        <h5 class="aligncenter"> by Adam Colestock</h5>
+
+        <p> One contour classified as "URBAN" and one contour classified as "WETLANDS" forming the coastline of New
+            Jersey are selected at random and placed on the canvas above their category label. The contours slowly flow
+            and blend together forming a continuous non-binary abstract form suggesting that simple category labels
+            might limit human thinking about the relationship between the natural and the built environment along our
+            coasts. </p>
+        <p> See the about page for more information about the dataset that was used. </p>
+        <p> This piece was inspired by <a href="https://www.youtube.com/watch?v=DwSrTICsG2I">this video</a> that led me
+            to think about how, in a time in which climate change is leading to dangerously shifting coastlines, we
+            might need to question our assumptions about the strategies and benefits of 'softening' vs. 'hardening' our
+            coastlines to 'defend' against natural forces </p>
+        <br>
+    </div>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js"></script>
+    <script src="Point2D.js"></script>
+    <script src="Polyline.js"></script>
+    <script src="sketch.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
